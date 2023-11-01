@@ -33,6 +33,7 @@ namespace Tyuiu.CherepanovVS.Sprint3.TaskReview.V30.Test
             res = new double[len];
             res = ds.GetMassFunction(startValue, stopValue);
             CollectionAssert.AreEqual(res, valueWaitArray);
+
         }
     }
 }
